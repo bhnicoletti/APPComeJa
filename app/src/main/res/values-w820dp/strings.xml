@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adicionar">AdicioneJá</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome">Nome:</string>
+    <string name="cpf">CPF:</string>
+    <string name="rg">RG:</string>
+    <string name="telefone_fixo">Telefone Fixo:</string>
+    <string name="telefone_celular">Telefone Celular:</string>
+    <string name="email">Email:</string>
+    <string name="confirmar_senha">Confirmar Senha:</string>
+    <string name="cadastrar">CadastrarJa</string>
+</resources>

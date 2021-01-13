@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "588219805807",
+    "firebase_url": "https://comeja-a11ad.firebaseio.com",
+    "project_id": "comeja-a11ad",
+    "storage_bucket": "comeja-a11ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588219805807:android:bc398b25e87c5c76",
+        "android_client_info": {
+          "package_name": "br.com.nicoletti.comeja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588219805807-0fr0p0otes5qt8qdrgft0m606rfclvju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.nicoletti.comeja",
+            "certificate_hash": "A51A02CBC51A2BDAA763B360FE0A54F90F118549"
+          }
+        },
+        {
+          "client_id": "588219805807-e6enpo0qv8188duoju1s09sp2arvucls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVNnz1m53BLieuOOxthnWGq_YY2ASiMtE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588219805807-e6enpo0qv8188duoju1s09sp2arvucls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ComeJa" parent="MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus">
+        <!-- Customize your theme here. -->
+        <item name="android:homeAsUpIndicator">@drawable/logo</item>
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_selected</item>
+        <item name="material_drawer_selected_text">@color/material_drawer_selected_text</item>
+        <item name="material_drawer_header_selection_text">
+            @color/material_drawer_header_selection_text
+        </item>
+    </style>
+
+    <style parent="ComeJa" name="Theme.ComeJaBottom">
+
+        <item name="colorPrimary">@android:color/white</item>
+
+    </style>
+
+    <style name="estiloDialog" parent="MaterialDrawerBaseTheme.Dialog">
+        <item name="android:tint">@color/md_white_1000</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:background">@color/colorPrimary</item>
+
+    </style>
+
+
+</resources>

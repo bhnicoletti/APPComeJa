@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="16dp"
+    android:background="@color/colorPrimary"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp"
+    app:cardMaxElevation="3dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgProduto"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="70dp"
+            fresco:roundedCornerRadius="100dp"
+            fresco:viewAspectRatio="1.77"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:failureImageScaleType="centerInside"
+            fresco:retryImageScaleType="centerCrop" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_idproduto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimarytext"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/tv_nomeProduto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimarytext"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_quantidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nomeProduto"
+                android:paddingBottom="14dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimarytext"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_valor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_quantidade"
+                android:paddingBottom="14dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimarytext"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

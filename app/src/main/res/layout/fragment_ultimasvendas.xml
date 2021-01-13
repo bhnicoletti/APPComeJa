@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CarrinhoFragment">
+
+    <TextView
+        android:id="@+id/txtnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/red"
+        android:text="Últimos Pedidos"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/txtnome"
+        android:id="@+id/rv_listaultimasvendas"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>
